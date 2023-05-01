@@ -3,7 +3,8 @@
 // Establish a database connection using PDO
 $pdo = new PDO('mysql:host=localhost; dbname=laupc_db', 'quiver', '123123123');
 
-
+error_reporting(E_ALL);
+ini_set("display_errors",'on');
 // Create a new Table object using the PDO instance
 $table = new Table($pdo);
 
