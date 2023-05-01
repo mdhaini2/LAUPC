@@ -6,6 +6,8 @@ $lift = $_GET['lift'];
 
 $query = $table->findSql("SELECT * FROM attempts where attempt = $attempt and lift = '$lift'");
 
-return $query;
+echo json_encode(array('status' => 'success',
+'data'=> $query
+));
 
 ?>
