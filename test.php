@@ -5,7 +5,9 @@ require_once('db_config.php');
 
 $query = $table->findSql("select * from attempts");
 
-return $query;
+echo json_encode(array('status' => 'success',
+'data'=> $query
+));
 
 
 ?>
