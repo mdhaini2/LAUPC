@@ -1,5 +1,5 @@
 <?php
-
+require_once('db_config.php');
 $attempt = $_GET['attempt'];
 $lift = $_GET['lift'];
 
