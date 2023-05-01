@@ -17,7 +17,7 @@ function App() {
         <Route path="/squat" element={<Squat />} />
         <Route path="/bench" element={<Bench />} />
         <Route path="/deadlift" element={<Deadlift />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/lospolloshermanos" element={<Admin />} />
       </Routes>
       </BrowserRouter>
     </>
