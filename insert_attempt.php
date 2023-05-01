@@ -10,7 +10,7 @@ $weight = $_POST['weight'];
 $table->insert('attempts', array(
     'name' => $name,
     'lift' => $lift,
-    'attempt' => $attempt,
+    'attempt' => $attemptNumber,
     'weight' => $weight,
   ));
   
