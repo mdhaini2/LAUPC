@@ -14,7 +14,6 @@ $table->insert('attempts', array(
     'weight' => $weight,
   ));
   
-  header('Content-Type: application/json');
   echo json_encode(array('status' => 'success'));
 
 
